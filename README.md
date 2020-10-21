@@ -107,7 +107,7 @@ To configure Domoticz, go to the IP of your docker host on the port you configur
 Monitoring SolarEdge inverters over Modbus TCP
 
 ***Configure SolarEdge MODBUS over TCP:***
-https://www.solaredge.com/sites/default/files/unspec-implementation-technical-note.pdf#%5B%7B%22num%22%3A66%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C34%2C642%2C0%5D
+https://www.solaredge.com/sites/default/files/sunspec-implementation-technical-note.pdf (look for the "MODBUS over TCP Support" section).
 
 ***Sunspec-monitor:*** https://github.com/tjko/sunspec-monitor
 
