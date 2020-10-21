@@ -1,8 +1,8 @@
 # frepke/domoticz
+
 Domoticz is a Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more. Notifications/Alerts can be sent to any mobile device.
 
 [![](https://raw.githubusercontent.com/domoticz/domoticz/master/www/images/logo.png)](https://www.domoticz.com/)
-
 
 
 ## Usage
@@ -76,7 +76,7 @@ Parameter  | Function
 -e PGID=1000| for GroupID - see below for explanation
 -e TZ=Europe/Amsterdam| Specify a timezone to use EG Europe/Amsterdam.
 -v /config| Where Domoticz stores config files and data.
---device| path to device	For passing through USB devices.
+--device| path to device for passing through USB devices.
 
 ## User / Group Identifiers
 
@@ -107,9 +107,9 @@ To configure Domoticz, go to the IP of your docker host on the port you configur
 Monitoring SolarEdge inverters over Modbus TCP
 
 ***Configure SolarEdge MODBUS over TCP:***
-https://www.solaredge.com/sites/default/files/sunspec-implementation-technical-note.pdf (look for the "MODBUS over TCP Support" section).
+<https://www.solaredge.com/sites/default/files/sunspec-implementation-technical-note.pdf> (look for the "MODBUS over TCP Support" section).
 
-***Sunspec-monitor:*** https://github.com/tjko/sunspec-monitor
+***Sunspec-monitor:*** <https://github.com/tjko/sunspec-monitor>
 
 ***From inside the Domoticz (shell access or script) container:***
 `/opt/sunspec-monitor/sunspec-status -m 0 -j -t 5 *local.ip.inverter* || echo error`
