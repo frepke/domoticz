@@ -71,7 +71,7 @@ Parameter  | Function
 ------------- | -------------
 -p 8080| GUI
 -p 6144| Domoticz communication port.
--p 1443| Domoticz communication port.
+-p 443| Domoticz communication port.
 -e PUID=1000| for UserID - see below for explanation
 -e PGID=1000| for GroupID - see below for explanation
 -e TZ=Europe/Amsterdam| Specify a timezone to use EG Europe/Amsterdam.
