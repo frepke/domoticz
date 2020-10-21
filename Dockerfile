@@ -22,6 +22,8 @@ RUN apt-get update -y && \
     sed -i '/update2.html/d' /opt/domoticz/www/html5.appcache && \
     git clone https://github.com/tjko/sunspec-monitor.git /opt/sunspec-monitor
 
-EXPOSE 8080/tcp 443/tcp 6144
+EXPOSE 8080 443 6144
+
 VOLUME /config
+
 ENTRYPOINT [ "/opt/domoticz/domoticz", "-dbase", "/config/domoticz.db", "-log", "/config/domoticz.log" ]
