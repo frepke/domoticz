@@ -1,5 +1,7 @@
 FROM debian:buster-slim
 
+LABEL name="Frepke"
+
 ARG APP_HASH
 ARG BUILD_DATE
 
