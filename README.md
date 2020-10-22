@@ -111,5 +111,5 @@ Monitoring SolarEdge inverters over Modbus TCP
 
 ***Sunspec-monitor:*** <https://github.com/tjko/sunspec-monitor>
 
-***From inside the Domoticz (shell access or script) container:***
+***From inside the Domoticz (shell or Domoticz script) container:***
 `/opt/sunspec-monitor/sunspec-status -m 0 -j -t 5 *local.ip.inverter* || echo error`
