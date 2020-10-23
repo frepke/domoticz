@@ -4,7 +4,6 @@ Domoticz is a Home Automation System that lets you monitor and configure various
 
 [![](https://raw.githubusercontent.com/domoticz/domoticz/master/www/images/logo.png)](https://www.domoticz.com/)
 
-
 ## Usage
 
 Here are some example snippets to help you get started creating a container.
@@ -37,6 +36,7 @@ usb 1-1.2: Detected FT232RL
 usb 1-1.2: FTDI USB Serial Device converter now attached to ttyUSB0
 As you can see above, the device node created is ttyUSB0. It does not say where, but it's almost always in /dev/. The correct tag for passing through this USB device is '--device /dev/ttyUSB0:/dev/ttyUSB0'
 ```
+
 **docker-compose**
 
 Compatible with docker-compose v3 schemas.

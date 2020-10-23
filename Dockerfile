@@ -1,11 +1,5 @@
 FROM debian:buster-slim
 
-ARG APP_HASH
-ARG BUILD_DATE
-
-LABEL org.label-schema.vcs-ref=$APP_HASH \
-      org.label-schema.build-date=$BUILD_DATE
-
 WORKDIR /opt/domoticz
 
 RUN apt-get update -y && apt-get install -y \
