@@ -1,5 +1,8 @@
 FROM debian:buster-slim
 
+LABEL maintainer="frepke"
+LABEL version="stable"
+
 WORKDIR /opt/domoticz
 
 RUN apt-get update && apt-get install -y \
