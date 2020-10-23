@@ -102,7 +102,7 @@ To configure Domoticz, go to the IP of your docker host on the port you configur
 - container version number `docker inspect -f '{{ index .Config.Labels "build_version" }}' domoticz`
 - image version number `docker inspect -f '{{ index .Config.Labels "build_version" }}' linuxserver/domoticz`
 
-## SUNSPEC-MONITOR
+## Sunspec-monitor
 
 Monitoring SolarEdge inverters over Modbus TCP
 
