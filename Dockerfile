@@ -1,15 +1,9 @@
 FROM debian:buster-slim
 
-LABEL name="Frepke"
-
 ARG APP_HASH
 ARG BUILD_DATE
 
 LABEL org.label-schema.vcs-ref=$APP_HASH \
-      org.label-schema.vcs-url="https://github.com/domoticz/domoticz" \
-      org.label-schema.url="https://domoticz.com/" \
-      org.label-schema.name="Domoticz" \
-      org.label-schema.license="GPLv3" \
       org.label-schema.build-date=$BUILD_DATE
 
 WORKDIR /opt/domoticz
