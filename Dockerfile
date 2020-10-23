@@ -2,7 +2,7 @@ FROM debian:buster-slim
 
 WORKDIR /opt/domoticz
 
-RUN apt-get update -y && apt-get install -y \
+RUN apt-get update && apt-get install -y \
     wget curl make nano gcc g++ gdb libssl-dev git libcurl4-gnutls-dev libusb-dev python3-dev zlib1g-dev libcereal-dev liblua5.3-dev uthash-dev perl cpanminus && \
     cpanm Device::Modbus Net::Server Role::Tiny Try::Tiny Device::Modbus::TCP && \
     mkdir -p /opt/domoticz && \
