@@ -1,4 +1,4 @@
-# frepke/domoticz
+# frepke/domoticz (stable)
 
 Domoticz is a Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more. Notifications/Alerts can be sent to any mobile device.
 
@@ -22,7 +22,7 @@ docker create \
   -v path to data:/config \
   --device path to device:path to device \
   --restart unless-stopped \
-  frepke/domoticz
+  frepke/domoticz:stable
 ```
 
 **Passing Through USB Devices**
@@ -46,7 +46,7 @@ Compatible with docker-compose v3 schemas.
 version: "3"
 services:
   domoticz:
-    image: frepke/domoticz
+    image: frepke/domoticz:stable
     container_name: domoticz
     environment:
       - PUID=1000
