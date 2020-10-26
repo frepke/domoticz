@@ -1,10 +1,5 @@
 FROM debian:buster-slim
 
-ARG VCS_REF
-
-LABEL org.label-schema.vcs-ref=$VCS_REF \
-      org.label-schema.vcs-url="e.g. https://github.com/microscaling/microscaling"
-
 WORKDIR /opt/domoticz
 
 RUN apt-get update && apt-get install -y \
