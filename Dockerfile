@@ -1,7 +1,9 @@
 FROM debian:buster-slim
 
-LABEL maintainer="frepke"
-LABEL version="stable"
+ARG VCS_REF
+
+LABEL org.label-schema.vcs-ref=$VCS_REF \
+      org.label-schema.vcs-url="e.g. https://github.com/microscaling/microscaling"
 
 WORKDIR /opt/domoticz
 
