@@ -4,6 +4,9 @@ Domoticz is a Home Automation System that lets you monitor and configure various
 
 [![](https://raw.githubusercontent.com/domoticz/domoticz/master/www/images/logo.png)](https://www.domoticz.com/)
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/frepke/domoticz.svg)](https://hub.docker.com/r/frepke/domoticz)
+[![Docker Stars](https://img.shields.io/docker/stars/frepke/domoticz.svg)](https://hub.docker.com/r/frepke/domoticz)
+
 ## Usage
 
 Here are some example snippets to help you get started creating a container.
