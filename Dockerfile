@@ -1,5 +1,9 @@
 FROM debian:buster-slim
 
+ARG BUILD_DATE
+
+LABEL org.label-schema.build-date=$BUILD_DATE
+
 WORKDIR /opt/domoticz
 
 RUN apt-get update && apt-get install -y \
