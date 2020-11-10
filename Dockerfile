@@ -26,7 +26,8 @@ LABEL org.label-schema.vcs-ref=$VCS_REF \
 
 EXPOSE 8080 443 6144
 
-VOLUME [ /config, "/opt/domoticz/backups", "/opt/domoticz/plugins", "/opt/domoticz/scripts" ]
+VOLUME /config
+VOLUME /opt/domoticz/backups
 
 ENTRYPOINT [ "/opt/domoticz/domoticz", "-dbase", "/config/domoticz.db", "-log", "/config/domoticz.log" ]
 HEALTHCHECK CMD curl --fail http://localhost:8080/ || exit 1
