@@ -28,5 +28,5 @@ EXPOSE 8080 443 6144
 
 VOLUME /config
 
-ENTRYPOINT [ "/opt/domoticz/domoticz", "-dbase", "/config/domoticz.db", "-log", "/config/domoticz.log", "/opt/domoticz/backups", "/opt/domoticz/plugins", "/opt/domoticz/scripts" ]
+ENTRYPOINT [ "/opt/domoticz/domoticz", "/opt/domoticz/backups", "/opt/domoticz/plugins", "/opt/domoticz/scripts", "-dbase", "/config/domoticz.db", "-log", "/config/domoticz.log" ]
 HEALTHCHECK CMD curl --fail http://localhost:8080/ || exit 1
