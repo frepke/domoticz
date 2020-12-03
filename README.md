@@ -19,7 +19,7 @@ Here are some example snippets to help you get started creating a container.
 **docker**
 
 ```markdown
-docker create \
+docker run -d \
   --name=domoticz \
   -e PUID=1000 \
   -e PGID=1000 \
