@@ -122,4 +122,6 @@ Monitoring SolarEdge inverters over Modbus TCP
 ***From inside the Domoticz (shell or Domoticz script) container:***
 `/opt/sunspec-monitor/sunspec-status -m 0 -j -t 5 *local.ip.inverter* || echo error`
 
-<a href="https://www.buymeacoffee.com/frepke" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+**--**
+
+<a href="https://www.buymeacoffee.com/frepke"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=frepke&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"></a>
