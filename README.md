@@ -12,8 +12,6 @@ Domoticz is a Home Automation System that lets you monitor and configure various
 
 ![AMD64](https://img.shields.io/badge/Architecture-AMD64-darkred?style=plastic)
 
-<a href="https://www.buymeacoffee.com/frepke" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
 ## Usage
 
 Here are some example snippets to help you get started creating and running a container.
@@ -123,3 +121,5 @@ Monitoring SolarEdge inverters over Modbus TCP
 
 ***From inside the Domoticz (shell or Domoticz script) container:***
 `/opt/sunspec-monitor/sunspec-status -m 0 -j -t 5 *local.ip.inverter* || echo error`
+
+<a href="https://www.buymeacoffee.com/frepke" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
