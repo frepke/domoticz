@@ -1,5 +1,8 @@
 FROM debian:buster-slim
-MAINTAINER Frepke <frepke@icloud.com>
+
+LABEL maintainer="Frepke"
+
+ENV DEBIAN_FRONTEND noninteractive
 
 LABEL org.label-schema.build-date=$BUILD_DATE
 
