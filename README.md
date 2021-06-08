@@ -30,7 +30,7 @@ docker run -d \
   -v path to data:/config \
   --device path to device:path to device \
   --restart unless-stopped \
-  frepke/domoticz:stable
+  ghcr.io/frepke/domoticz:stable
 ```
 
 **Passing Through USB Devices**
@@ -54,7 +54,7 @@ Compatible with docker-compose v3 schemas.
 version: "3"
 services:
   domoticz:
-    image: frepke/domoticz:stable
+    image: ghcr.io/frepke/domoticz:stable
     container_name: domoticz
     environment:
       - PUID=1000
