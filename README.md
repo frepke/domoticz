@@ -7,8 +7,8 @@ Domoticz is a Home Automation System that lets you monitor and configure various
 ![Domoticz](https://img.shields.io/badge/Domoticz-2021.1-orange?style=plastic)
 ![build](https://img.shields.io/badge/Build-13191_(stable)-orange?style=plastic)
 
-![code-size](https://img.shields.io/github/languages/code-size/frepke/domoticz?style=plastic)
 ![code-language](https://img.shields.io/github/languages/top/frepke/domoticz?style=plastic)
+![code-size](https://img.shields.io/github/languages/code-size/frepke/domoticz?style=plastic)
 ![last-commit](https://img.shields.io/github/last-commit/frepke/domoticz/master?style=plastic)
 
 ![AMD64](https://img.shields.io/badge/Architecture-AMD64-darkred?style=plastic)
