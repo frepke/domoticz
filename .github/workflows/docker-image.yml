@@ -33,6 +33,6 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/frepke/domoticz:latest
-            ghcr.io/frepke/domoticz:stable
-            ghcr.io/frepke/domoticz:1.0.0
+            ghcr.io/${{ github.repository }}:latest
+            ghcr.io/${{ github.repository }}:stable
+            ghcr.io/${{ github.repository }}:1.0.0
