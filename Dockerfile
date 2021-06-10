@@ -1,6 +1,6 @@
 FROM debian:buster-slim
 
-LABEL maintainer="Frepke"
+LABEL maintainer="frepke"
 
 ENV DEBIAN_FRONTEND noninteractive
 
