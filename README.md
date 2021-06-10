@@ -4,7 +4,6 @@ Domoticz is a Home Automation System that lets you monitor and configure various
 
 [![](https://raw.githubusercontent.com/domoticz/domoticz/master/www/images/logo.png)](https://www.domoticz.com/)
 
-[![](https://img.shields.io/docker/pulls/frepke/domoticz?style=plastic)]()
 [![](https://img.shields.io/github/license/Frepke/domoticz?style=plastic)]()
 
 ![Domoticz](https://img.shields.io/badge/Domoticz-2021.1-orange?style=plastic)
