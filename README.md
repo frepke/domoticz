@@ -12,6 +12,7 @@ Domoticz is a Home Automation System that lets you monitor and configure various
 ![last-commit](https://img.shields.io/github/last-commit/frepke/domoticz/master?style=plastic)
 
 ![AMD64](https://img.shields.io/badge/Architecture-AMD64-darkred?style=plastic)
+[![ci](https://github.com/frepke/domoticz/actions/workflows/docker-image.yml/badge.svg)](https://github.com/frepke/domoticz/actions/workflows/docker-image.yml)
 
 ![license](https://img.shields.io/github/license/Frepke/domoticz?style=plastic)
 
