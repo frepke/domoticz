@@ -4,17 +4,17 @@ Domoticz is a Home Automation System that lets you monitor and configure various
 
 [![](https://raw.githubusercontent.com/domoticz/domoticz/master/www/images/logo.png)](https://www.domoticz.com/)
 
-![Domoticz](https://img.shields.io/badge/Domoticz-2022.1-orange?style=plastic)
-![build](https://img.shields.io/badge/Build-14127_(stable)-orange?style=plastic)
+![Domoticz](https://img.shields.io/badge/Domoticz-2022.1-orange)
+![build](https://img.shields.io/badge/Build-14127_(stable)-orange)
 
-![code-language](https://img.shields.io/github/languages/top/frepke/domoticz?style=plastic)
-![code-size](https://img.shields.io/github/languages/code-size/frepke/domoticz?style=plastic)
-![last-commit](https://img.shields.io/github/last-commit/frepke/domoticz/master?style=plastic)
-
-![AMD64](https://img.shields.io/badge/Architecture-AMD64-darkred?style=plastic)
+![code-language](https://img.shields.io/github/languages/top/frepke/domoticz)
+![code-size](https://img.shields.io/github/languages/code-size/frepke/domoticz)
+![last-commit](https://img.shields.io/github/last-commit/frepke/domoticz/master)
 [![ci](https://github.com/frepke/domoticz/actions/workflows/docker-image.yml/badge.svg)](https://github.com/frepke/domoticz/actions/workflows/docker-image.yml)
 
-![license](https://img.shields.io/github/license/Frepke/domoticz?style=plastic)
+![AMD64](https://img.shields.io/badge/Architecture-AMD64-darkred)
+
+![license](https://img.shields.io/github/license/Frepke/domoticz)
 
 ## Usage
 
