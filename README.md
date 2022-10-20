@@ -4,16 +4,17 @@ Domoticz is a Home Automation System that lets you monitor and configure various
 
 [![](https://raw.githubusercontent.com/domoticz/domoticz/master/www/images/logo.png)](https://www.domoticz.com/)
 
-![Domoticz](https://img.shields.io/badge/Domoticz-2022.1-orange?style=plastic)
-![build](https://img.shields.io/badge/Build-14127_(stable)-orange?style=plastic)
+![Domoticz](https://img.shields.io/badge/Domoticz-2022.1-orange)
+![build](https://img.shields.io/badge/Build-14127_(stable)-orange)
 
-![code-language](https://img.shields.io/github/languages/top/frepke/domoticz?style=plastic)
-![code-size](https://img.shields.io/github/languages/code-size/frepke/domoticz?style=plastic)
-![last-commit](https://img.shields.io/github/last-commit/frepke/domoticz/master?style=plastic)
+![code-language](https://img.shields.io/github/languages/top/frepke/domoticz)
+![code-size](https://img.shields.io/github/languages/code-size/frepke/domoticz)
+![last-commit](https://img.shields.io/github/last-commit/frepke/domoticz/master)
+[![ci](https://github.com/frepke/domoticz/actions/workflows/docker-image.yml/badge.svg)](https://github.com/frepke/domoticz/actions/workflows/docker-image.yml)
 
-![AMD64](https://img.shields.io/badge/Architecture-AMD64-darkred?style=plastic)
+![AMD64](https://img.shields.io/badge/Architecture-AMD64-darkred)
 
-![license](https://img.shields.io/github/license/Frepke/domoticz?style=plastic)
+![license](https://img.shields.io/github/license/Frepke/domoticz)
 
 ## Usage
 
@@ -83,8 +84,8 @@ Parameter  | Function
 -p 8080| GUI
 -p 6144| Domoticz communication port.
 -p 443| Domoticz communication port.
--e PUID=1000| for UserID - see below for explanation
--e PGID=1000| for GroupID - see below for explanation
+-e PUID=1000| for UserID - see below for explanation.
+-e PGID=1000| for GroupID - see below for explanation.
 -e TZ=Europe/Amsterdam| Specify a timezone to use EG Europe/Amsterdam.
 -v /config| Where Domoticz stores config files and data.
 --device| path to device for passing through USB devices.
