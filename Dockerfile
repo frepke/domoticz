@@ -9,7 +9,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE
 WORKDIR /opt/domoticz
 
 RUN apt-get update && apt-get install -y \
-    wget curl make nano gcc g++ gdb libssl-dev git libcurl4-gnutls-dev libusb-dev python3-dev zlib1g-dev libcereal-dev liblua5.3-dev uthash-dev perl cpanminus && \
+    wget curl make nano gcc g++ gdb libssl-dev git libcurl4-gnutls-dev libusb-dev libsqlite3-dev python3-dev zlib1g-dev libcereal-dev liblua5.3-dev uthash-dev perl cpanminus && \
     cpanm Device::Modbus Net::Server Role::Tiny Try::Tiny Device::Modbus::TCP && \
     mkdir -p /opt/domoticz && \
     wget -qO- https://releases.domoticz.com/releases/release/domoticz_linux_x86_64.tgz | tar xz -C /opt/domoticz && \
