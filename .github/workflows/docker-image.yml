@@ -35,4 +35,4 @@ jobs:
           tags: |
             ghcr.io/${{ github.repository }}:latest
             ghcr.io/${{ github.repository }}:stable
-            ghcr.io/${{ github.repository }}:v1.0.3
+            ghcr.io/${{ github.repository }}:v1.23.1
