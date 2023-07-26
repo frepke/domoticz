@@ -33,3 +33,4 @@ VOLUME /opt/domoticz/backups
 
 ENTRYPOINT [ "/opt/domoticz/domoticz", "-dbase", "/config/domoticz.db", "-log", "/config/domoticz.log" ]
 HEALTHCHECK CMD curl --fail http://localhost:8080/ || exit 1
+
