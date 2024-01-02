@@ -1,10 +1,10 @@
-# Domoticz 2023.2 (stable)
+# Domoticz 2024.1 (stable)
 
 Domoticz is a Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more. Notifications/Alerts can be sent to any mobile device.
 
 [![](https://raw.githubusercontent.com/domoticz/domoticz/master/www/images/logo.png)](https://www.domoticz.com/)
 
-![Domoticz](https://img.shields.io/badge/Domoticz-2023.2-orange)
+![Domoticz](https://img.shields.io/badge/Domoticz-2024.1-orange)
 ![build](https://img.shields.io/badge/Build-15457_(stable)-orange)
 
 ![code-language](https://img.shields.io/github/languages/top/frepke/domoticz)
