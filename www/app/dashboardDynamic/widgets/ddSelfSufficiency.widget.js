@@ -90,8 +90,18 @@ define([
                     var batNet           = batCharge - batDischarge;
                     var netGrid          = p1Import - p1Export;
                     var houseConsumption = p1Import + solarKwh - p1Export - batNet;
+
+                    // Self-sufficiency is defined as the fraction of total house consumption
+                    // that is NOT supplied by the grid.
+                    //
+                    // House consumption already includes battery charge/discharge effects.
+                    // Therefore, self-sufficiency must be based on gross grid import,
+                    // not on net grid balance (import - export).
+                    //
+                    // Formula:
+                    // selfSufficiency = 1 - (gridImport / houseConsumption)
                     var selfSufficiency  = houseConsumption > 0
-                        ? (1 - Math.max(0, netGrid) / houseConsumption) * 100
+                        ? (1 - p1Import / houseConsumption) * 100
                         : 0;
 
                     ctrl.balance = {
